@@ -48,6 +48,12 @@ def main():
 if __name__ == "__main__":
     main()
 
+    
+    
+    
+    
+    
+    
 """2) Bubble sort"""
 
 import numpy as np
@@ -73,6 +79,14 @@ if __name__ == '__main__':
     print()
     for i in range(n):
         print(a[i])
+        
+        
+        
+        
+        
+        
+        
+        
 
 """3)CUDA for vector addition"""
 
@@ -124,9 +138,15 @@ def main():
 if __name__ == "__main__":
   main()
 
-"""4) DFS
 
-"""
+
+
+
+
+
+
+
+"""4) DFS """
 
 import queue
 import stack
@@ -168,6 +188,15 @@ if __name__ == "__main__":
     g.addEdge(2, 6)
     print("Depth First Search: ", end="")
     g.DFS(0)
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 """DL_ASS_1_Boston"""
 
@@ -247,6 +276,15 @@ for i in range(num_images):
   plt.title(f"Predicted label: {predicted_labels[i]}")
 plt.show()
 
+
+
+
+
+
+
+
+
+
 """IMDB_ASSIGNMENT_2"""
 
 import numpy as np
@@ -280,9 +318,18 @@ history = model.fit(x_train,y_train,epochs=3,batch_size=150,validation_split=0.2
 loss,acc=model.evaluate(x_test,y_test,batch_size=64)
 print(f"test Accuracy: {acc:4f},test loss: {loss:4f}")
 
-"""Max and Avg
 
-"""
+
+
+
+
+
+
+
+
+"""Max and Avg"""
+
+
 
 import sys
 import numpy as np
@@ -309,6 +356,14 @@ if __name__ == '__main__':
         arr.append(int(input()))
     max_reduction(arr)
     average_reduction(arr)
+    
+    
+    
+    
+    
+    
+    
+    
 
 """Merge Sort"""
 
@@ -359,6 +414,14 @@ if __name__ == '__main__':
         print(element, end=" ")
     print()
 
+    
+    
+    
+    
+    
+    
+    
+    
 """Min and Sum"""
 
 import sys
